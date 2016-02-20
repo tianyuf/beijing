@@ -1,0 +1,188 @@
+/*
+
+Theme Name: Beijing
+
+Theme URI: https://tianyufang.net/
+
+Description: Simple & Smoggy.
+
+Version: 1.0
+
+Author: Tianyu Fang
+
+Author URI: https://tianyufang.net/
+
+*/
+
+html {
+  margin: 0;
+}
+
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft Yahei", sans-serif;
+  margin: auto;
+  max-width: 800px;
+  background: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 3px solid #C0C0C0;
+}
+
+a:hover {
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color: #888888;
+}
+
+.title {
+  display: inline-block;
+  list-style-type: none;
+  text-transform: lowercase;
+  margin-top: 60px;
+}
+
+.post-title {
+  font-weight: 500;
+}
+
+#blog-title, #blog-title a {
+  font-size: 30px;
+  color: #000;
+  border-bottom: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+#blog-title:hover {
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color: #888888;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#description {
+  margin-top: 10px;
+  font-size: 20px;
+  border-bottom: 3px solid #C0C0C0;
+  cursor: default;
+  transition: all 0.2s ease-in-out;
+  margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+  #description {
+    margin-left: 0;
+    border-bottom: none;
+  }
+
+  .title {
+    display: block;
+  }
+}
+
+#description:hover {
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color: #888888;
+}
+
+#container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.post {
+  margin: 60px 0px;
+}
+
+.postmetadata, .postmetadata a {
+  font-family: "Source Sans Code", "Monaco", "Courier", monospace;
+  font-size: 13px;
+  font-weight: lighter;
+  color: #888888;
+  text-align: right;
+  float: right;
+}
+
+.sidebar {
+  border-top: 3px solid #888888;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-bottom: 40px;
+  background-color: #eeeeee;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  padding-right: 40px;
+}
+
+.sidebar>ul>li, .sidebar>a {
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: text-top;
+  list-style-type: none;
+  width: 241px;
+  line-height: 1.6em;
+}
+
+#footer {
+  line-height: 1.8em;
+  padding-bottom: 20px;
+}
+
+.comments-template {
+  margin: 10px 0 0;
+  padding: 10px 0 0;
+}
+
+.comments-template ol {
+  margin: 0;
+  padding: 0 0 15px;
+  list-style: none;
+}
+
+.comments-template ol li {
+  margin: 10px 0 0;
+  line-height: 18px;
+  padding: 0 0 10px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  border-left: 3px solid #888888;
+}
+
+.comments-template h2, .comments-template h3 {
+  font-size: 1em;
+  color: #222;
+}
+
+.commentmetadata {
+  font-size: 1em;
+  color: #888888;
+}
+
+.comments-template p.nocomments {
+  padding: 0;
+}
+
+.comments-template textarea {
+  font-size: 1em;
+}
+
+input[name="submit"] {
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  background-color: #888;
+  font-size: .8em;
+  color: #f2f2f2;
+}
