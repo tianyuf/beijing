@@ -25,6 +25,7 @@ body {
   margin: auto;
   max-width: 800px;
   background: #f9f9f9;
+  line-height: 2em;
 }
 
 a {
