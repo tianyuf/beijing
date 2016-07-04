@@ -26,6 +26,13 @@ body {
   max-width: 800px;
   background: #f9f9f9;
   line-height: 2em;
+  position: relative;
+}
+
+
+img {
+	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
 }
 
 a {
@@ -33,6 +40,10 @@ a {
   color: #000;
   transition: all 0.2s ease-in-out;
   border-bottom: 3px solid #C0C0C0;
+}
+
+.alignnone {
+  max-width: 100%;
 }
 
 a:hover {
@@ -115,6 +126,7 @@ h2 {
   border-top: 3px solid #888888;
   margin-top: 10px;
   margin-left: 0;
+  padding-bottom: 10px;
   margin-bottom: 40px;
   background-color: #eeeeee;
   padding-left: 15px;
