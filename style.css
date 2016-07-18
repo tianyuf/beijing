@@ -21,7 +21,7 @@ html {
 body {
   padding-left: 40px;
   padding-right: 40px;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft Yahei", sans-serif;
+  font-family: "Helvetica Neue", "Segoe UI", "Roboto", "PingFang SC", "Microsoft Yahei", sans-serif;
   margin: auto;
   max-width: 800px;
   background: #f9f9f9;
@@ -31,8 +31,8 @@ body {
 
 
 img {
-	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
-	height: auto; /* Override height to match resized width for correct aspect ratio. */
+  max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+  height: auto; /* Override height to match resized width for correct aspect ratio. */
 }
 
 a {
@@ -189,6 +189,7 @@ h2 {
 
 .comments-template textarea {
   font-size: 1em;
+  max-width: 100%;
 }
 
 input[name="submit"] {
